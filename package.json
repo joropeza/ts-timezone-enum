@@ -1,7 +1,7 @@
 {
   "name": "timezone-enum",
   "version": "1.0.0",
-  "description": "Lightweight timezone enums based on tzdata, no other dependencies",
+  "description": "Lightweight timezone enum for JavaScript or TypeScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
