@@ -1,9 +1,11 @@
 {
-  "name": "ts-timezone-enum",
+  "name": "timezone-enum",
   "version": "1.0.0",
   "description": "Lightweight timezone enums based on tzdata, no other dependencies",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "build": "tsc",
     "test": "jest"
   },
   "keywords": [],
