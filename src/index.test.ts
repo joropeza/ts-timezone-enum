@@ -7,5 +7,4 @@ const doStuff = (thing: TimezoneEnum) => {
 
 test('json data is converted to an enum', () => {
   doStuff(TimezoneEnum['Africa/Algiers']);
-  doStuff('Africa/Algiers');
 });
