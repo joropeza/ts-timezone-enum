@@ -1,17 +1,19 @@
 {
-    "compilerOptions": {
-      "module": "commonjs",
-      "esModuleInterop": true,
-      "strict": true,
-      "declaration": true,
-      "target": "es5",
-      "sourceMap": true,
-      "outDir": "dist"
-    },
-    "lib": ["es2015"],
-    "exclude": [
-      "node_modules",
-      "dist",
-      "**/*.test.ts"
-    ]
-  }
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "strict": true,
+    "declaration": true,
+    "target": "es5",
+    "sourceMap": true,
+    "outDir": "dist"
+  },
+  "lib": [
+    "es2015"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/*.test.ts"
+  ]
+}

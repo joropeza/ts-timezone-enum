@@ -1,6 +1,6 @@
 {
   "name": "timezone-enum",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight timezone enum for JavaScript or TypeScript.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,7 +8,9 @@
     "build": "tsc",
     "test": "jest"
   },
-  "keywords": ["timezones"],
+  "keywords": [
+    "timezones"
+  ],
   "author": "Jon Oropeza",
   "license": "MIT",
   "prepublish": "tsc",
