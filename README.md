@@ -11,3 +11,27 @@ Lightweight timezone enum for JavaScript or TypeScript.
 [npm-version-image]: http://img.shields.io/npm/v/timezone-enum.svg?style=flat
 [npm-downloads-image]: http://img.shields.io/npm/dm/timezone-enum.svg?style=flat
 [downloads-url]: https://npmcharts.com/compare/timezone-enum?minimal=true
+
+## Installing
+
+### Package manager
+
+Using npm:
+
+```bash
+npm install timezone-enum
+```
+
+## Using
+
+Once the package is installed, use the default import like so:
+
+```js
+import Timezone from 'timezone-enum';
+```
+
+And then you can do this anywhere in the module and expect intellisense to work as you're typing:
+
+```js
+const currentTimezone = Timezone['US/Pacific'];
+```
